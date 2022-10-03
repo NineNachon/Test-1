@@ -1,0 +1,256 @@
+.Header {
+    height: 64px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center; 
+  }
+  .logo {
+    display: flex;
+    padding-left: 24px;
+    flex-grow: 1;
+  }
+  .logo span {
+    font-size: 20px;
+    color: rgb(39, 36, 36);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+  }
+  .logo-img {
+    height: 40px;
+  }
+  header nav {
+    padding-right: 16px;
+  }
+  nav span{ 
+    padding: 0px 8px;
+  }
+  span.l1 {
+    font-weight: 1000;
+  }
+  span.l2 {
+    font-weight: 200;
+  }
+  .imgb {
+    display: flex;
+    top: 64px;
+  }
+  .avleft {
+    width: 60%;
+    margin: 32px 24px;
+  }
+  .rc {
+    margin: 32px auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner {
+    background-color: rgb(133, 138, 149);
+    justify-content: center;
+    
+  }
+  .banner img {
+    width: 100%;
+  }
+  .textb {
+    padding-right: 75px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    
+  }
+  .h1ban {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .spanban {
+    padding: 30px 0;
+    padding-bottom: 40px;
+  }
+  button {
+    display: block;
+    background-color:rgb(26,41,48);
+    color: rgb(250,250,250);
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border: 20px;
+  }
+  .main3 {
+    display: flex;
+    position: relative;
+  }
+  .main3-left {
+    display: block;
+    width: 60%;
+    margin: 32px 24px;
+  }
+  .main3-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+  }
+  .imag-left img {
+    width: 100%;
+    overflow: hidden;
+  }
+  .text3 {
+    display: block;
+    font-size: 12px;
+    padding-top: 36px;
+  }
+  .all3 {
+    border-top: 1px solid rgb(57,57,57);
+    display: flex;
+  }
+  .image-small {
+    display: block;
+    width: 35%;
+    margin: 16px;
+  }
+  .image-small img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .text-small {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .All4{
+    display: flex;
+    position: relative;
+    top: 64px;
+    background-color: #e2e0e0;
+  }
+  .main-courses {
+    line-height: 27px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 72px;
+    background-color: #e2e0e0;
+  }
+  
+  .courses {
+    display: block;
+    background-color:rgb(165, 161, 164);
+    width: 100%;
+    margin: auto;
+    color: rgb(57,57,57);
+  }
+  
+  .courses-list {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 32px 72px;
+    line-height: 1.3;
+    background-color: #e2e0e0;
+  }
+  .course {
+    width: 28%;
+    margin: 10px 21px;
+    border: 2px solid rgb(213,213,213);
+    background-color: white
+  }
+  .course img {
+    width: 100%;
+    height: auto;
+  }
+  .course-text {
+   
+    background-color: rgb(255, 249, 253);
+    padding: 8px;
+  }
+  .course h2 {
+    font-weight: 600;
+    margin-top: 4px;
+  }
+  .course h3 {
+    padding: 8px 0;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    line-height: 15px;
+    font-weight: 200;
+  }
+  .course p {
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .lp {
+    display: flex;
+    position: relative;
+    top: 64px;
+  }
+  .lleft {
+    display: block;
+    width: 60%;
+    margin: 32px 24px;
+  }
+  .lright {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto;
+  }
+  .lastall {
+    background-color: rgb(255, 250, 244);
+    font-size: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 300;
+    color: rgb(64, 64, 64);
+    justify-content: center;
+    text-transform: lowercase;
+  }
+  .lp1 {
+    background-color: rgb(255, 255, 255);
+    line-height: 1.3;
+  }
+  .video-text h1 {
+    font-weight: 600;
+    padding-top: 24px;
+    color: rgb(64, 64, 64);
+  }
+  .video-text p {
+    color: rgb(105,105,105);
+    font-weight: 100;
+    padding-top: 18px;
+  }
+  video {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .footerall {
+    display: flex;
+    position: relative;
+    top: 64px;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(166, 166, 166);
+    background-color: rgb(213,211,208);
+    width: 100%;
+    color: rgb(57,57,57);
+    line-height: 27px;
+    text-transform: uppercase;
+    padding: 16px 24px 16px 24px;
+  }
+  .copy {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    flex-grow: 1;
+  }
